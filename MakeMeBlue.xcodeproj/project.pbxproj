@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD495BED1D749853001D655E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD495BEC1D749853001D655E /* AppDelegate.swift */; };
+		AD495BEF1D749853001D655E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD495BEE1D749853001D655E /* ViewController.swift */; };
+		AD495BF21D749853001D655E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD495BF01D749853001D655E /* Main.storyboard */; };
+		AD495BF41D749853001D655E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD495BF31D749853001D655E /* Assets.xcassets */; };
+		AD495BF71D749853001D655E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD495BF51D749853001D655E /* LaunchScreen.storyboard */; };
+		AD495C021D749853001D655E /* MakeMeBlueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD495C011D749853001D655E /* MakeMeBlueTests.swift */; };
+		AD495C0D1D749853001D655E /* MakeMeBlueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD495C0C1D749853001D655E /* MakeMeBlueUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD495BFE1D749853001D655E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD495BE11D749853001D655E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD495BE81D749853001D655E;
+			remoteInfo = MakeMeBlue;
+		};
+		AD495C091D749853001D655E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD495BE11D749853001D655E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD495BE81D749853001D655E;
+			remoteInfo = MakeMeBlue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD495BE91D749853001D655E /* MakeMeBlue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakeMeBlue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD495BEC1D749853001D655E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD495BEE1D749853001D655E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD495BF11D749853001D655E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD495BF31D749853001D655E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD495BF61D749853001D655E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD495BF81D749853001D655E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD495BFD1D749853001D655E /* MakeMeBlueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakeMeBlueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD495C011D749853001D655E /* MakeMeBlueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeMeBlueTests.swift; sourceTree = "<group>"; };
+		AD495C031D749853001D655E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD495C081D749853001D655E /* MakeMeBlueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakeMeBlueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD495C0C1D749853001D655E /* MakeMeBlueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeMeBlueUITests.swift; sourceTree = "<group>"; };
+		AD495C0E1D749853001D655E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD495BE61D749853001D655E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD495BFA1D749853001D655E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD495C051D749853001D655E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD495BE01D749853001D655E = {
+			isa = PBXGroup;
+			children = (
+				AD495BEB1D749853001D655E /* MakeMeBlue */,
+				AD495C001D749853001D655E /* MakeMeBlueTests */,
+				AD495C0B1D749853001D655E /* MakeMeBlueUITests */,
+				AD495BEA1D749853001D655E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD495BEA1D749853001D655E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD495BE91D749853001D655E /* MakeMeBlue.app */,
+				AD495BFD1D749853001D655E /* MakeMeBlueTests.xctest */,
+				AD495C081D749853001D655E /* MakeMeBlueUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD495BEB1D749853001D655E /* MakeMeBlue */ = {
+			isa = PBXGroup;
+			children = (
+				AD495BEC1D749853001D655E /* AppDelegate.swift */,
+				AD495BEE1D749853001D655E /* ViewController.swift */,
+				AD495BF01D749853001D655E /* Main.storyboard */,
+				AD495BF31D749853001D655E /* Assets.xcassets */,
+				AD495BF51D749853001D655E /* LaunchScreen.storyboard */,
+				AD495BF81D749853001D655E /* Info.plist */,
+			);
+			path = MakeMeBlue;
+			sourceTree = "<group>";
+		};
+		AD495C001D749853001D655E /* MakeMeBlueTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD495C011D749853001D655E /* MakeMeBlueTests.swift */,
+				AD495C031D749853001D655E /* Info.plist */,
+			);
+			path = MakeMeBlueTests;
+			sourceTree = "<group>";
+		};
+		AD495C0B1D749853001D655E /* MakeMeBlueUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD495C0C1D749853001D655E /* MakeMeBlueUITests.swift */,
+				AD495C0E1D749853001D655E /* Info.plist */,
+			);
+			path = MakeMeBlueUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD495BE81D749853001D655E /* MakeMeBlue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD495C111D749853001D655E /* Build configuration list for PBXNativeTarget "MakeMeBlue" */;
+			buildPhases = (
+				AD495BE51D749853001D655E /* Sources */,
+				AD495BE61D749853001D655E /* Frameworks */,
+				AD495BE71D749853001D655E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MakeMeBlue;
+			productName = MakeMeBlue;
+			productReference = AD495BE91D749853001D655E /* MakeMeBlue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD495BFC1D749853001D655E /* MakeMeBlueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD495C141D749853001D655E /* Build configuration list for PBXNativeTarget "MakeMeBlueTests" */;
+			buildPhases = (
+				AD495BF91D749853001D655E /* Sources */,
+				AD495BFA1D749853001D655E /* Frameworks */,
+				AD495BFB1D749853001D655E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD495BFF1D749853001D655E /* PBXTargetDependency */,
+			);
+			name = MakeMeBlueTests;
+			productName = MakeMeBlueTests;
+			productReference = AD495BFD1D749853001D655E /* MakeMeBlueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD495C071D749853001D655E /* MakeMeBlueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD495C171D749853001D655E /* Build configuration list for PBXNativeTarget "MakeMeBlueUITests" */;
+			buildPhases = (
+				AD495C041D749853001D655E /* Sources */,
+				AD495C051D749853001D655E /* Frameworks */,
+				AD495C061D749853001D655E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD495C0A1D749853001D655E /* PBXTargetDependency */,
+			);
+			name = MakeMeBlueUITests;
+			productName = MakeMeBlueUITests;
+			productReference = AD495C081D749853001D655E /* MakeMeBlueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD495BE11D749853001D655E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Sage Hawk";
+				TargetAttributes = {
+					AD495BE81D749853001D655E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					AD495BFC1D749853001D655E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = AD495BE81D749853001D655E;
+					};
+					AD495C071D749853001D655E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = AD495BE81D749853001D655E;
+					};
+				};
+			};
+			buildConfigurationList = AD495BE41D749853001D655E /* Build configuration list for PBXProject "MakeMeBlue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD495BE01D749853001D655E;
+			productRefGroup = AD495BEA1D749853001D655E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD495BE81D749853001D655E /* MakeMeBlue */,
+				AD495BFC1D749853001D655E /* MakeMeBlueTests */,
+				AD495C071D749853001D655E /* MakeMeBlueUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD495BE71D749853001D655E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD495BF71D749853001D655E /* LaunchScreen.storyboard in Resources */,
+				AD495BF41D749853001D655E /* Assets.xcassets in Resources */,
+				AD495BF21D749853001D655E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD495BFB1D749853001D655E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD495C061D749853001D655E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD495BE51D749853001D655E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD495BEF1D749853001D655E /* ViewController.swift in Sources */,
+				AD495BED1D749853001D655E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD495BF91D749853001D655E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD495C021D749853001D655E /* MakeMeBlueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD495C041D749853001D655E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD495C0D1D749853001D655E /* MakeMeBlueUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD495BFF1D749853001D655E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD495BE81D749853001D655E /* MakeMeBlue */;
+			targetProxy = AD495BFE1D749853001D655E /* PBXContainerItemProxy */;
+		};
+		AD495C0A1D749853001D655E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD495BE81D749853001D655E /* MakeMeBlue */;
+			targetProxy = AD495C091D749853001D655E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD495BF01D749853001D655E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD495BF11D749853001D655E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD495BF51D749853001D655E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD495BF61D749853001D655E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD495C0F1D749853001D655E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD495C101D749853001D655E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD495C121D749853001D655E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MakeMeBlue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Before-the-Beginning.MakeMeBlue";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AD495C131D749853001D655E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MakeMeBlue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Before-the-Beginning.MakeMeBlue";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AD495C151D749853001D655E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MakeMeBlueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Before-the-Beginning.MakeMeBlueTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MakeMeBlue.app/MakeMeBlue";
+			};
+			name = Debug;
+		};
+		AD495C161D749853001D655E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MakeMeBlueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Before-the-Beginning.MakeMeBlueTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MakeMeBlue.app/MakeMeBlue";
+			};
+			name = Release;
+		};
+		AD495C181D749853001D655E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MakeMeBlueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Before-the-Beginning.MakeMeBlueUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MakeMeBlue;
+			};
+			name = Debug;
+		};
+		AD495C191D749853001D655E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MakeMeBlueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Before-the-Beginning.MakeMeBlueUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MakeMeBlue;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD495BE41D749853001D655E /* Build configuration list for PBXProject "MakeMeBlue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD495C0F1D749853001D655E /* Debug */,
+				AD495C101D749853001D655E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD495C111D749853001D655E /* Build configuration list for PBXNativeTarget "MakeMeBlue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD495C121D749853001D655E /* Debug */,
+				AD495C131D749853001D655E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD495C141D749853001D655E /* Build configuration list for PBXNativeTarget "MakeMeBlueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD495C151D749853001D655E /* Debug */,
+				AD495C161D749853001D655E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD495C171D749853001D655E /* Build configuration list for PBXNativeTarget "MakeMeBlueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD495C181D749853001D655E /* Debug */,
+				AD495C191D749853001D655E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD495BE11D749853001D655E /* Project object */;
+}
